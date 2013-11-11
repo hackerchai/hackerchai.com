@@ -54,7 +54,7 @@ header h1 {
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'Sanchez', Courier New, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -95,7 +95,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: 'Sanchez', Courier New, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #B5E853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -115,7 +115,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h4 {
-  font-size: 14px;
+  font-size: 16px;
+  color: #EAEAEA;
 }
 
 #main_content h5 {
@@ -192,13 +193,20 @@ hr {
   color: #B5E853;
 }
 
+footer {
+  font-size: 13px;
+  padding: 5px 0 10px;
+}
+
 /* Buttons
 */
 
 .btn {
   display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(169, 169, 169, 0.3), rgba(70, 70, 70, 0.3) 50%, rgba(56, 56, 56, 0.3) 50%, rgba(21, 21, 21, 0.1));
+  background: rgba(56, 56, 56, 0.3);
+  background-image: -webkit-linear-gradient(top, rgba(169, 169, 169, 0.3), rgba(70, 70, 70, 0.3) 50%, rgba(56, 56, 56, 0.3) 50%, rgba(21, 21, 21, 0.1));
   padding: 8px 18px;
+  margin-right: 5px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
@@ -209,11 +217,19 @@ hr {
   font-size: 13px;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 3px 5px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .btn:hover {
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  background-image: -webkit-linear-gradient(top, #DDD, #CCC 50%, #999);
+  color: #111;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .btn .icon {
