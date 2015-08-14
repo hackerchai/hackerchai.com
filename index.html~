@@ -22,7 +22,6 @@
         <script src="js/modernizr.js"></script>
 <!-- Modernizr -->
     </head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <body class="scrollspy" id="top">
 
 <!-- Pre Loader -->
