@@ -4,73 +4,66 @@ https://keybase.io/hackerchai
 
 I hereby claim:
 
-  * I am an admin of http://hackerchai.com
+  * I am an admin of https://hackerchai.com
   * I am hackerchai (https://keybase.io/hackerchai) on keybase.
-  * I have a public key with fingerprint C8F8 CE8A 31B9 CB55 9D8A  555B 8D63 4277 16F4 A85A
+  * I have a public key ASBM_wdHz3UdzJ_l3tcajVHD_yrdU_ZLomJg0DsCWYjuZwo
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "01011f076ab240c2b5d920c0291097daf91129d65cbe298daeca096fb94de8ad33500a",
-            "fingerprint": "c8f8ce8a31b9cb559d8a555b8d63427716f4a85a",
+            "eldest_kid": "01011f076ab240c2b5d920c0291097daf91129d65cbe298daeca0
+96fb94de8ad33500a",
             "host": "keybase.io",
-            "key_id": "8d63427716f4a85a",
-            "kid": "01011f076ab240c2b5d920c0291097daf91129d65cbe298daeca096fb94de8ad33500a",
+            "kid": "01204cff0747cf751dcc9fe5ded71a8d51c3ff2add53f64ba26260d03b02
+5988ee670a",
             "uid": "21eefa27ad5783b6d9f176d2c12af819",
             "username": "hackerchai"
         },
-        "revoke": {
-            "sig_ids": [
-                "749f23287f29a12188aa00c4e9c3d2233c679e0d5d87d382a01a4665bb41a5340f"
-            ]
-        },
         "service": {
             "hostname": "hackerchai.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1444028163,
-    "expire_in": 157680000,
-    "prev": "0be9d7021cffd118bb37fae2b9f027f638173a1e22a407db782ecc3ebf659491",
-    "seqno": 6,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1470028489,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1470028590,
+        "hash": "5c382b75d2eff26243b5554e118ffd2c9cf0ac02d6978bec4f12a00e2ae2781
+97a40c88b6b7e002e7ee4953adb7a05ed21a76e50038ffaab6259e662d404039d",
+        "seqno": 551697
+    },
+    "prev": "cb64df19f1b1d49fa6cd987401deb97f06fcf3a3151f3b4e14bfa0749b71f0f5",
+    "seqno": 27,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.47
-Comment: https://keybase.io/crypto
-
-yMN/AnicrVJ9TFZVHIZeEH0xYUxjWeK8KS5Fuufc7zeExCYDnK56+RLh3bnnngs3
-8L3wvi8fTj5KW2JLJg4imq5yTRigbuWMj5bAQiEwKxxQQ5cmDlD5UElJPrqX1V/1
-Z+efs3N+z+95nvOc33fPWrys3kdxdMFzj+r2ePe0/5HnlRi01nKAknVlP2U7QGWR
-xY1kK8TtcWRpCmWjaEADoNICj2TI0hjKnCJBGtNQArQkKEiVAICSwnNYJlASFUQw
-oiVelSVWISJSGIajaUSFUarmzCCuHJfm9Bi0WFRFbNQZIEtY5jhJERHHcbKo8AwL
-BQHwKotEzmzM1N1mh2FORm4SrunGnXFwLNr7D/z/7DtvkQ4CQlQEBaRwgsjIvCKp
-QOAViAFEqggkE+gmLifaRwx0JsJZxIUzkUYVh1Eukq9nETNZt5Zh2HZTtlRKYCUV
-MlAUVCghAIEoIkTTmCUSZhQIGQbzgkRohVNEQWFEiGiAWJ7nZJkFiGNYWqXSDG5D
-M1/Di+RmTv/SD8f6PsNbjkv36FjPNmseT47NtOXZn2NiC4js+JvFIWtOxfgmoyGf
-uNya7qRswEBij2bSApZlaSgCngmjSGGO5iIOzURwAi/SxjJlSL6ZvUwkRaAhwKqq
-ACDKMiOoiEBZUmkoqDwjAoFBgECIWFpQZEGEBGOGyCrPSawEKPNduU6dsvGGTZRh
-UBrJOZEnz0Wo4o72vT5e3lavJb7PmOPrZV0W+M9Qj+cHLCSmpw+99cq98tmGvvyJ
-4Ib6iYauC4OhiQ8P3Qm4uPvS/XMrw0t+byvs7DwYervWGT2GO/tyOx8seOmhEYH+
-vZP9IZFVp/S7LUW9fa0Jza+G+Pns+bb3Gpo/23r/zLqae09u1X56/LfjmzPee70u
-s+z9oZRNFUnUmwm/piydGxipHPm82mIfGltXSlhqYXb5R9MBa5nsyoup/lsLO1DG
-2e23t728wWdTf0WBn+9jx7Kbq2/FBf4id/xYON3dtu2d0e3Zoz20Nc0Sd7u9aGxz
-3dWoNjA3iZuOXP25K+x6XXH8+ELQVGPhndKQ5UrhgN0S2+i/PiFlzdFrqbabGfdP
-PB9eOmcvih37YE3Wrjh5qomZGe5Nsu7skjvQ8Bcbm4MbT0bFTOdtjB3oDrpQYn/0
-1HdS9WYixZPZJYMRjsOBZatnXnvSc6/1/NeRMcOVJObUkuQrP11OXuq3QVwx+nZ5
-zZeN87seVhX4CM12HNVe/1l8S5O+xlnTd3r/i4f/fNDsu+Or9TzXc+KblhfUHR9b
-WiylSTP2iahBqWP+8QoWVJ/x1Fq3LH+a8m7EbF3X2MCRgIP25BstexNqB859KK2a
-irk+frq3hyMoO5ptH1t5I/dy2kth0ceSmZqdVUPB5c707kP6008qyvq7tTe2+Epb
-C36In6Cydg/dxCMw9PsrffXn7dWrZl13+dBLx/4Cy0fjqw==
-=cQBB
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTP8HR891Hcyf5d7XGo1Rw/8q3VP2S6Ji
+YNA7AlmI7mcKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMWYwNzZh
+YjI0MGMyYjVkOTIwYzAyOTEwOTdkYWY5MTEyOWQ2NWNiZTI5OGRhZWNhMDk2ZmI5NGRlOGFkMzM1MDBh
+IiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGNmZjA3NDdjZjc1MWRjYzlmZTVkZWQ3MWE4
+ZDUxYzNmZjJhZGQ1M2Y2NGJhMjYyNjBkMDNiMDI1OTg4ZWU2NzBhIiwidWlkIjoiMjFlZWZhMjdhZDU3
+ODNiNmQ5ZjE3NmQyYzEyYWY4MTkiLCJ1c2VybmFtZSI6ImhhY2tlcmNoYWkifSwic2VydmljZSI6eyJo
+b3N0bmFtZSI6ImhhY2tlcmNoYWkuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9z
+ZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdv
+IGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NzAwMjg0ODksImV4cGlyZV9pbiI6
+NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MDAyODU5MCwiaGFzaCI6IjVjMzgyYjc1
+ZDJlZmYyNjI0M2I1NTU0ZTExOGZmZDJjOWNmMGFjMDJkNjk3OGJlYzRmMTJhMDBlMmFlMjc4MTk3YTQw
+Yzg4YjZiN2UwMDJlN2VlNDk1M2FkYjdhMDVlZDIxYTc2ZTUwMDM4ZmZhYWI2MjU5ZTY2MmQ0MDQwMzlk
+Iiwic2Vxbm8iOjU1MTY5N30sInByZXYiOiJjYjY0ZGYxOWYxYjFkNDlmYTZjZDk4NzQwMWRlYjk3ZjA2
+ZmNmM2EzMTUxZjNiNGUxNGJmYTA3NDliNzFmMGY1Iiwic2Vxbm8iOjI3LCJ0YWciOiJzaWduYXR1cmUi
+faNzaWfEQACn77zu7o1ALtlXcprxoXR6TpfJsX/53VVIRaT6Xg57svHgeQvINwG+v9gL0k4TikkIgz35
+3LO2FFeUVY9PKgKoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCtt0p4ZnomJRBDojZeLLE2XQfy
+hkEBWmaIhtAHQaGg9aN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -78,4 +71,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/hackerchai
 
 ==================================================================
-
