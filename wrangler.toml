@@ -1,0 +1,10 @@
+name = "homepage"
+type = "webpack"
+account_id = "bbd395dcdefd12895ef0e649538b8c16"
+workers_dev = false
+route = "hackerchai.com/*"
+zone_id = "b8813dc6cbc8ff9f74aabc4d7b471f3f"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
