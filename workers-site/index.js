@@ -41,7 +41,42 @@ async function handleEvent(event) {
         bypassCache: true,
       }
     }
-    return await getAssetFromKV(event, options)
+    const { origin, pathname: path, search } = new URL(event.request.url);
+    if (path.endsWith('/index.html')) {
+      return new Response(null, {
+        status: 301,
+        headers: {
+          'Location': `${origin}${path.substring(0, path.length - 10)}${search}`,
+          'Cache-Control': 'max-age=3600'
+        }
+      });
+    }
+
+    if (path.startsWith('/assets/')) {
+      const response = await getAssetFromKV(event, {
+        cacheControl: {
+          edgeTtl: 365 * 24 * 60 * 60,
+          browserTtl: 365 * 24 * 60 * 60,
+        }
+      });
+      response.headers.set('cache-control', `public, max-age=${365 * 24 * 60 * 60}, immutable`);
+      return response;
+    }
+
+    const response = await getAssetFromKV(event, {
+      cacheControl: {
+        edgeTtl: 60 * 60,
+        browserTtl: 5 * 60
+      }
+    });
+
+    response.headers.set('X-XSS-Protection', '1; mode=block');
+    response.headers.set('X-Content-Type-Options', 'nosniff');
+    response.headers.set('X-Frame-Options', 'DENY');
+    response.headers.set('Referrer-Policy', 'unsafe-url');
+    response.headers.set('Feature-Policy', 'none');
+
+    return response;
   } catch (e) {
     // if an error is thrown try to serve the asset at 404.html
     if (!DEBUG) {
@@ -51,7 +86,7 @@ async function handleEvent(event) {
         })
 
         return new Response(notFoundResponse.body, { ...notFoundResponse, status: 404 })
-      } catch (e) {}
+      } catch (e) { }
     }
 
     return new Response(e.message || e.toString(), { status: 500 })
