@@ -52,7 +52,7 @@ async function handleEvent(event) {
       });
     }
 
-    if (path === '/') {
+    if (path.endsWith('/')) {
       const response = await getAssetFromKV(event, {
         cacheControl: {
           edgeTtl: 60 * 60,
