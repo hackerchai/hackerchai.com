@@ -52,7 +52,7 @@ async function handleEvent(event) {
       });
     }
 
-    if (path.endsWith('.html')) {
+    if (path.endsWith('.html') || path === '/') {
       response.headers.set('Link', '<https://s.hackerchai.com>; rel=dns-prefetch, <https://s.hackerchai.com>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net>; rel=dns-prefetch, <https://cdn.jsdelivr.net>; rel=preconnect; crossorigin');
       response.headers.set('Link', '<https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css>; rel=preload; as=style; crossorigin=anonymous, <https://cdn.jsdelivr.net/npm/cfga@1.0.3>; rel=preload; as=script; crossorigin=anonymous');
     }
