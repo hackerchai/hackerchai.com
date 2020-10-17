@@ -52,9 +52,19 @@ async function handleEvent(event) {
       });
     }
 
-    if (path.endsWith('.html') || path === '/') {
-      response.headers.set('Link', '<https://s.hackerchai.com>; rel=dns-prefetch, <https://s.hackerchai.com>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net>; rel=dns-prefetch, <https://cdn.jsdelivr.net>; rel=preconnect; crossorigin');
-      response.headers.set('Link', '<https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css>; rel=preload; as=style; crossorigin=anonymous, <https://cdn.jsdelivr.net/npm/cfga@1.0.3>; rel=preload; as=script; crossorigin=anonymous');
+    if (path === '/') {
+      const response = await getAssetFromKV(event, {
+        cacheControl: {
+          edgeTtl: 60 * 60,
+          browserTtl: 5 * 60
+        }
+      });
+      response.headers.set('Link', '<https://s.hackerchai.com>; rel=dns-prefetch, <https://s.hackerchai.com>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net>; rel=dns-prefetch, <https://cdn.jsdelivr.net>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css>; rel=preload; as=style; crossorigin=anonymous, <https://cdn.jsdelivr.net/npm/cfga@1.0.3>; rel=preload; as=script; crossorigin=anonymous');
+      response.headers.set('X-XSS-Protection', '1; mode=block');
+      response.headers.set('X-Content-Type-Options', 'nosniff');
+      response.headers.set('X-Frame-Options', 'DENY');
+      response.headers.set('Referrer-Policy', 'unsafe-url');
+      return response;
     }
 
     if (path.startsWith('/assets/')) {
@@ -79,7 +89,6 @@ async function handleEvent(event) {
     response.headers.set('X-Content-Type-Options', 'nosniff');
     response.headers.set('X-Frame-Options', 'DENY');
     response.headers.set('Referrer-Policy', 'unsafe-url');
-    response.headers.set('Feature-Policy', 'none');
 
     return response;
   } catch (e) {
