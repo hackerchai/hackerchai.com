@@ -75,7 +75,7 @@ async function handleEvent(event) {
     response.headers.set('X-Frame-Options', 'DENY');
     response.headers.set('Referrer-Policy', 'unsafe-url');
     response.headers.set('Feature-Policy', 'none');
-    response.headers.set('Link', '<https://s.hackerchai.com>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css>; rel=preload; as=style; crossorigin, <https://cdn.jsdelivr.net/npm/cfga@1.0.3>; rel=preload; as=script; crossorigin');
+    response.headers.set('Link', '<https://s.hackerchai.com>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net>; rel=preconnect; crossorigin, <https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css>; rel=preload; as=style; crossorigin=anonymous, <https://cdn.jsdelivr.net/npm/cfga@1.0.3>; rel=preload; as=script; crossorigin=anonymous');
 
     return response;
   } catch (e) {
