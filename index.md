@@ -78,6 +78,6 @@ I contribute to open-source organizations:
 
 ## GPG
 
-You can find me at [Keybase@hackerchai]([https://keybase.io/hackerchai). And my public key can be accessed here [C8F8CE8A31B9CB559D8A555B8D63427716F4A85A](https://hackerchai.com/pgp_keys.asc).
+You can find me at [Keybase@hackerchai](https://keybase.io/hackerchai). And my public key can be accessed here [C8F8CE8A31B9CB559D8A555B8D63427716F4A85A](https://hackerchai.com/pgp_keys.asc).
 
 My proof of this domain can be accessed here [keybase.txt](https://hackerchai.com/keybase.txt)
