@@ -19,7 +19,7 @@ I am using these program languages and tools:
 - 🛠️  Rust | Java | PHP | Python
 
 
-- 🖥️  MacOS | Manjaro Linux | Kali Linux | Zsh | KDE
+- 🖥️  MacOS | Arch Linux | Kali Linux | Zsh | KDE
 
 
 - ⚙️️  VSCode | Vim | Jetbrains | 4 Spaces for Tab
