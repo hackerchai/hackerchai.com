@@ -76,5 +76,5 @@
             ]
         }
     ],
-    "trailingSlash": true
+    "trailingSlash": false
 }
