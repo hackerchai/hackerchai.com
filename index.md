@@ -58,7 +58,7 @@ I contribute to open-source organizations:
 - Email - [i@hackerchai.com](mailto:i@hackerchai.com)
 
 
-- Matrix - @eason:hackerchai.com
+- Matrix - @eason:mozilla.org
 
 
 - Telegram - @hackerchai
