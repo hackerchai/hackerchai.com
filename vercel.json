@@ -61,19 +61,6 @@
                     "value": "1; mode=block"
                 }
             ]
-        },
-        {
-            "source": "/.well-known/matrix/(.*)",
-            "headers": [
-                {
-                    "key": "Access-Control-Allow-Origin",
-                    "value": "*"
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                }
-            ]
         }
     ],
     "trailingSlash": false
