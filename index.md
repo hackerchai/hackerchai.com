@@ -10,7 +10,7 @@ Undergraduate at Chongqing University. I am a backend developer as well as a Bar
 
 I am focusing on these social issues: `Human Rights`, `Liberty`, `Privacy`, `Copyright`, `Information transparency`.
 
-[![](https://cdn.jsdelivr.net/npm/hackerchai@0.2.2/homepage/github.svg)](https://github.com/hackerchai)    [![](https://cdn.jsdelivr.net/npm/hackerchai@0.2.2/homepage/blog.svg)](https://blog.hackerchai.com)
+[![](https://portfolio.cdn.hackerchai.com/homepage/github.svg)](https://github.com/hackerchai)    [![](https://portfolio.cdn.hackerchai.com/homepage/blog.svg)](https://blog.hackerchai.com)
 
 ## Coding
 
