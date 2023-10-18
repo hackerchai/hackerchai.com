@@ -1,0 +1,11 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: no-referrer
+  Permissions-Policy: document-domain=()
+  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Link: <https://portfolio.cdn.hackerchai.com>; rel=dns-prefetch, <https://portfolio.cdn.hackerchai.com>; rel=preconnect; crossorigin, <https://s.hackerchai.com>; rel=dns-prefetch, <https://s.hackerchai.com>; rel=preconnect; crossorigin
+
+https://:hackerchai.pages.dev/*
+  X-Robots-Tag: noindex
