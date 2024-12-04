@@ -10,8 +10,7 @@ Intern at [Qiniu](https://www.qiniu.com/), previously at [Zeabur](https://zeabur
 
 I am focusing on these social issues: `Human Rights`, `Liberty`, `Privacy`, `Copyright`, `Information transparency`.
 
-- [Github](https://github.com/hackerchai)
-- [Blog](https://blog.hackerchai.com)
+**[Github](https://github.com/hackerchai)** / **[Blog](https://blog.hackerchai.com)**
 
 ## Coding
 
@@ -69,8 +68,8 @@ I contribute to open-source organizations:
 
 ## Encryption
 
-You can find me at [Keybase@hackerchai](https://keybase.io/hackerchai). And my public key can be accessed here [5BE2DB6018EACBBA067F6483FEC02056409538FC](https://hackerchai.com/pgp_keys.asc).
+My public key can be accessed here [64FB86F21D165E1B1B3081392808CA087B163A86](https://keys.openpgp.org/vks/v1/by-fingerprint/64FB86F21D165E1B1B3081392808CA087B163A86). You can download my public key here [pgp_keys.asc](https://hackerchai.com/2808CA087B163A86.asc).
+
+My age receipt is `age1yubikey1q0rmc52yl48p9xc6g8dndffsyh8ljf455u7r2w6lt5dwlch3m3e95mwwkng`
 
 My proof of this domain can be accessed here [keybase.txt](https://hackerchai.com/keybase.txt)
-
-My age receipt is `age1yubikey1qwxse9z887jynxdlgnnv9za8kqn3nhlqgtlgd3jt3qzjp88pucfmxzs9x29`
